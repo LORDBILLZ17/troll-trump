@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
-import Countdown from './components/Countdown'
 import NotifyForm from './components/NotifyForm'
+import Countdown from './components/Countdown'
 
 const App = () => {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 })
