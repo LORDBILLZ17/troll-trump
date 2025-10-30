@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gradient-to-br from-black via-[#0A0A0A] to-[#1A1A1A] text-white min-h-screen font-sans;
+}
